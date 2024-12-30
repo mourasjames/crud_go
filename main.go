@@ -143,6 +143,7 @@ func main() {
 		break
 	default:
 		fmt.Println("Opcão inválida!")
+		main()
 	}
 }
 
