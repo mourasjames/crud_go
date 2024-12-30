@@ -1,0 +1,6 @@
+CREATE TABLE dispositivos (
+    id VARCHAR(255) NOT NULL PRIMARY KEY,
+    nome VARCHAR(50),
+    ip VARCHAR(50),
+    rack VARCHAR(15)
+);
